@@ -21,10 +21,7 @@ public class Main {
 
            switch(CConfig.selectedOptions) {
                case 1:
-                   System.out.println(CConfig.titleHeader);
-                   for(int i=1;i<=pb.n;i++) {
-                       pb.showOneContact(i-1);
-                   }
+                   pb.showContacts();
                    s.nextLine();
                    break;
                case 2:
@@ -96,7 +93,8 @@ public class Main {
                    s.nextLine();
                    break;
                case 8:
-
+                   System.out.println("Kamil Fitrzyk 2021");
+                   s.nextLine();
                    break;
                default:
                    break;

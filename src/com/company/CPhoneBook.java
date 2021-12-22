@@ -29,10 +29,53 @@ public class CPhoneBook {
         n++;
     }
 
+    public void showContacts(){
+        if(n==0) {
+            System.out.println("empty");
+            Scanner s = new Scanner(System.in);
+            s.nextLine();
 
-    public void showOneContact(int i) {
-        System.out.println(i+1 + "\t " + phoneBook[i].firstName + "\t\t" + phoneBook[i].lastName +
-                "\t\t" + phoneBook[i].address + "\t\t" + phoneBook[i].number);
+        } else {
+            String header = "ID\tFirst name  Last name   Address                  Number";
+            System.out.println(header);
+            for(int i=0;i<n;i++) {
+                showOneContact(i);
+            }
+        }
+
+    }
+
+
+    public void showOneContact(int id) {
+        String contact="";
+        String one = String.valueOf(id+1);
+        contact +=one;
+        for(int i = 0; i <4 - one.length();i++) {
+            contact += " ";
+        }
+
+        contact += phoneBook[id].firstName;
+        for(int i = 0; i <12 - phoneBook[id].firstName.length();i++) {
+            contact += " ";
+        }
+
+        contact += phoneBook[id].lastName;
+        for(int i = 0; i <12 - phoneBook[id].lastName.length();i++) {
+            contact += " ";
+        }
+
+        contact += phoneBook[id].address;
+        for(int i = 0; i <25 - phoneBook[id].address.length();i++) {
+            contact += " ";
+        }
+
+        contact += phoneBook[id].number;
+        for(int i = 0; i <12 - phoneBook[id].number.length();i++) {
+            contact += " ";
+        }
+
+        System.out.println(contact);
+
     }
 
     public void modifyContactFirstName(String id, String newFirstName) {
@@ -156,7 +199,7 @@ public class CPhoneBook {
 
                 }
 
-                showOneContact(n);
+
                 n++;
                 start=0;
                 stop=0;

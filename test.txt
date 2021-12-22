@@ -1,7 +1,7 @@
 Daisy&Hunt&7942 Fordham Road&227-8809-74&
 Maria&Cooper&Moncks Corner, SC 29461&688-6294-98&
 Kristian&Moore&8247 Meadowbrook Lane&145-4268-36&
-Amelia&Thompson&South Richmond Hill, NY 11419&477-0723-62&
+Amelia&Thompson&South Richmond Hill&477-0723-62&
 Sam&Gray&8470 Gartner Drive&169-4187-31&
 Kimberly&Thompson&Elizabethtown, PA 17022&933-6915-49&
 Maria&Howard&9105 Winding Way Road&538-4813-48&
@@ -9,7 +9,7 @@ Lucia&Spencer&East Hartford, CT 06118&318-4884-84&
 Lucy&Richards&384 Silver Spear Street&150-7780-46&
 Alexia&Murray&Centreville, VA 20120&464-7269-77&
 Alford&Ellis&82 Cherry St.&483-9543-65&
-Sabrina&Montgomery&Pataskala, OH 43062&226-6432-28&
+Sabrina&Montgomery&Pataskala,&226-6432-28&
 Melanie&Warren&32 West Tailwater St.&209-7886-70&
 Catherine&Davis&Acworth, GA 30101&572-2664-77&
 Lucia&Parker&8946 Piper St.&197-4361-19&
