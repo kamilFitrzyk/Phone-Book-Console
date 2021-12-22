@@ -47,7 +47,7 @@ public class CConfig {
     public static final String badValue = "Bad value";
     public static final String chooseNumber = "Choose option:";
 
-    public static final String titleHeader = "ID \t First name \t Last name \t Address \t Number";
+
     public static final String giveMeId = "Set id to modify, 0 - back";
 
     public static final String idToDelete = "Id to delete, 0 - cancel";
@@ -56,6 +56,7 @@ public class CConfig {
     public static String fileName = "File name:";
 
     public static String fileNotExist = "File not exist";
+    public static String header = "ID\tFirst name  Last name   Address                  Number";
 
     public static String find(int counter) {
         return "Find " + counter + " row";

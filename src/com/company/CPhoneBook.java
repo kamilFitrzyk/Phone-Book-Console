@@ -36,8 +36,7 @@ public class CPhoneBook {
             s.nextLine();
 
         } else {
-            String header = "ID\tFirst name  Last name   Address                  Number";
-            System.out.println(header);
+            System.out.println(CConfig.header);
             for(int i=0;i<n;i++) {
                 showOneContact(i);
             }
@@ -116,7 +115,7 @@ public class CPhoneBook {
         int counter = 0;
 
         while(start < n) {
-            System.out.println(CConfig.titleHeader);
+            System.out.println(CConfig.header);
             if (phoneBook[start].firstName.contains(search) == true ||
                     phoneBook[start].lastName.contains(search) == true ||
                     phoneBook[start].address.contains(search) == true ||
